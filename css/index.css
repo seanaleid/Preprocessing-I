@@ -134,3 +134,16 @@ html,
 body {
   height: 100%;
 }
+body {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 10% 0;
+}
+body .page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid forestgreen;
+}

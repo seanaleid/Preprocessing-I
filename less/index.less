@@ -59,10 +59,57 @@ html, body {
 
 // Variables //
 
-
+@border-page: 1px solid forestgreen;
+@border-parent: 1px solid red;
+@border-child: 1px solid blue;
+@border-grandchild: 1px solid pink;
 
 // Mixins //
 
-
+.design(){
+	background-color:#FFE4C4;
+	opacity: 50%;
+}
 
 // Styles //
+
+body {
+	max-width: 900px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 10% 0;
+	
+	.page {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		// padding: 10%;
+		border: @border-page; 
+	
+		.nav {
+
+		}//this closes .nav
+
+		.header {
+
+		}//this closes .header
+	
+		.sectionTop {
+
+		}//this closes .sectionTop
+
+		.sectionMiddle {
+
+		}//this closes .sectionMiddle
+
+		.sectionBottom {
+
+		}//this closes .sectionBottom
+
+		.button {
+
+		}//this closes .button
+		
+	} // this closes .page
+} //this closes body
