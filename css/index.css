@@ -134,16 +134,83 @@ html,
 body {
   height: 100%;
 }
-body {
+.page {
   max-width: 900px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 0 10% 0;
+  margin: 0 300px 0 300px;
+  border: 1px solid forestgreen;
 }
-body .page {
+.header {
+  border: 1px solid red;
+  max-height: 100px;
+}
+.header .nav a {
+  border: 1px solid blue;
+}
+.header .nav a .link {
+  font-family: 'Roboto Mono', monospace;
+}
+.topTop {
+  display: flex;
+  background-color: #FFE4C4;
+}
+.topTop .box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  border: 1px solid forestgreen;
+  border: 1px solid blue;
+}
+.topTop .box h1 {
+  border: 1px solid pink;
+  font-family: 'Roboto Mono', monospace;
+  padding-top: 10px;
+}
+.topTop .box h2 {
+  border: 1px solid pink;
+  padding-top: 20px;
+}
+.topTop .imgBox {
+  border: 1px solid blue;
+  width: 50%;
+}
+.topTop .imgBox img {
+  border: 1px solid pink;
+  width: 90%;
+  border-radius: 15%;
+}
+.sectionTop {
+  border: 1px solid red;
+}
+.sectionTop h2 {
+  border: 1px solid blue;
+  padding: 20px;
+}
+.sectionTop p {
+  border: 1px solid blue;
+  padding: 20px;
+}
+.sectionMiddle {
+  border: 1px solid red;
+}
+.sectionMiddle .box h2 {
+  border: 1px solid blue;
+  padding: 20px;
+}
+.sectionMiddle .box p {
+  border: 1px solid blue;
+  padding: 20px;
+}
+.sectionBottom {
+  border: 1px solid red;
+}
+.sectionBottom h2 {
+  border: 1px solid blue;
+  padding: 20px;
+}
+.sectionBottom p {
+  border: 1px solid blue;
+  padding: 20px;
+}
+.button {
+  border: 1px solid red;
 }
