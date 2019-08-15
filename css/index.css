@@ -139,78 +139,64 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 300px 0 300px;
-  border: 1px solid forestgreen;
 }
-.header {
-  border: 1px solid red;
-  max-height: 100px;
-}
-.header .nav a {
-  border: 1px solid blue;
-}
-.header .nav a .link {
+.page .header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0;
   font-family: 'Roboto Mono', monospace;
 }
-.topTop {
+.page .header .nav a {
+  font: lightgray;
+  text-decoration: none;
+}
+.page .topTop {
   display: flex;
-  background-color: #FFE4C4;
+  padding: 0 0 50px 0;
+  background-color: lightgray;
+  margin-bottom: 5px;
 }
-.topTop .box {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid blue;
+.page .topTop .box h1 {
+  font-size: 2rem;
+  padding: 20px 0px;
 }
-.topTop .box h1 {
-  border: 1px solid pink;
-  font-family: 'Roboto Mono', monospace;
-  padding-top: 10px;
+.page .topTop .box p {
+  font-size: 1.5rem;
 }
-.topTop .box h2 {
-  border: 1px solid pink;
-  padding-top: 20px;
+.page .topTop .imgBox {
+  width: 100%;
+  padding: 20px;
 }
-.topTop .imgBox {
-  border: 1px solid blue;
-  width: 50%;
-}
-.topTop .imgBox img {
-  border: 1px solid pink;
-  width: 90%;
+.page .topTop .imgBox img {
+  width: 100%;
   border-radius: 15%;
 }
-.sectionTop {
-  border: 1px solid red;
+.page .sectionTop {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  margin-top: 20px;
+  font-family: 'Roboto Mono', monospace;
 }
-.sectionTop h2 {
-  border: 1px solid blue;
-  padding: 20px;
+.page .sectionTop h2 {
+  padding: 20px 0px;
+  font-size: 1.2rem;
 }
-.sectionTop p {
-  border: 1px solid blue;
-  padding: 20px;
+.page .sectionTop p {
+  padding: 20px 0;
 }
-.sectionMiddle {
-  border: 1px solid red;
+.page .sectionMiddle {
+  display: flex;
+  justify-content: space-evenly;
 }
-.sectionMiddle .box h2 {
-  border: 1px solid blue;
-  padding: 20px;
+.page .sectionMiddle .box {
+  padding: 20px 0px;
+  font-family: 'Roboto Mono', monospace;
 }
-.sectionMiddle .box p {
-  border: 1px solid blue;
-  padding: 20px;
+.page .sectionBottom h2 {
+  padding: 20px 0px;
 }
-.sectionBottom {
-  border: 1px solid red;
-}
-.sectionBottom h2 {
-  border: 1px solid blue;
-  padding: 20px;
-}
-.sectionBottom p {
-  border: 1px solid blue;
-  padding: 20px;
-}
-.button {
-  border: 1px solid red;
+.page .sectionBottom p {
+  padding: 20px 0px;
 }
