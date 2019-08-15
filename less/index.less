@@ -71,6 +71,7 @@ html, body {
 @border-grandchild: 1px solid pink;
 
 @background-color: lightgray;
+@font-style: 'Roboto Mono', monospace;
 
 // Mixins //
 
@@ -194,10 +195,10 @@ html, body {
 		}//this closes @media .sectionMiddle
 			.box {
 				// .inSide();
-				.font();
+				// .font();
+				font-family: @font-style;
 				flex-direction: column;
 				width: 33.3%;
-				padding: 10px 10px;
 				
 				div h2{
 					padding: 10px 0; 

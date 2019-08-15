@@ -218,7 +218,6 @@ body {
   font-family: 'Roboto Mono', monospace;
   flex-direction: column;
   width: 33.3%;
-  padding: 10px 10px;
 }
 .page .sectionMiddle .box div h2 {
   padding: 10px 0;
